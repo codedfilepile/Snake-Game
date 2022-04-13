@@ -7,20 +7,29 @@
         margin: 0px;
         padding: 0px;
         border: 0px;
+        background-image: linear-gradient(rgb(69, 68, 68),grey);
         }
         #mycanvas{
-             width: 45vw;
-            height: 90vh;
+             width: 630px;
+            height: 86vh;
             background-color: aqua;
             border: 3vh solid black;
+        }
+        .container-box{
+            height: 100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
     </style>
 </head>
 <body>
-   <canvas id="mycanvas"></canvas>
+   <div class="container-box">
+        <canvas id="mycanvas"></canvas>
+    </div>
     <script src="snake.js">
     </script>
-
 </body>
 </html>
